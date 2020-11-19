@@ -1,0 +1,10 @@
+insert into actor (first_name, last_name) values ("Hans-Henrik", "Madsen");
+Select * from actor where first_name = "Hans-Henrik";
+insert into film_actor (actor_id) values ("202","203","204","205");
+update actor set last_name = "øv" where actor_id = 201;
+update actor set first_name ="doudble øv" where actor_id = 201;
+select * from actor where actor_id = 201;
+delete from actor where actor_id = 201;
+insert into film_actor (actor_id, film_id) values (202, 5), (202, 7), (202, 8), (202, 1), (202, 3);
+select * from actor where actor_id = 201;
+select * from film_actor where actor_id = 202;
